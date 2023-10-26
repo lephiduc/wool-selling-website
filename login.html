@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./access/styleLogin.css">
+    <link rel="stylesheet" href="./access/reset.css">
+    <link rel="stylesheet" href="./access/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="wrapper-header">
+      <div class="header-nav">
+        <ul class="header-list">
+          <li class="header-items">
+            <a href="#" class="header-nav__link"><h4>Tra cứu đơn hàng</h4></a>
+          </li>
+  
+          <li class="header-items">
+            <i class="fa-solid fa-magnifying-glass header-icon"></i>
+            <input type="search" class="header-input" placeholder="Tìm sản phẩm">
+          </li>
+  
+          <li class="header-items">
+            <i class="fa-solid fa-cart-shopping header-icon" ></i>
+            <a href="#" class="header-nav__link"><h4>Giỏ hàng</h4></a>
+          </li>
+  
+          <li class="header-items">
+            <i class="fa-solid fa-right-to-bracket header-icon"></i>
+            <a href="./createAcount.html" class="header-nav__link"><h4>Đăng ký</h4></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+<!-- end Header -->
+
+<!-- Login -->
+<div class="login">
+    <div class="wrapper">
+        <div class="wrapper-login">
+            <div class="header-loginTop">
+                <h2 class="header-loginTop__desc">Đăng nhập</h3>
+            <p class="header-text_desc">Nhập thông tin dưới đây để đăng nhập vào tài khoản của bạn</p>
+        </div>
+        <from class="header-loginBody">
+            <input type="text" class="header-account" placeholder="Nhập tài khoản">
+            <input type="password" class="header-account" placeholder="Mật khẩu">
+        </from>
+        <div class="header-text">
+            <a href=""><h3 class="header-text__desc">Tạo tài khoản mới</h3></a>
+            <a href=""><h3 class="header-text__desc">Quên mật khẩu?</h3></a>
+        </div>
+        <div class="header-buttons">
+            <div class="header-button__login">
+                <i class="fa-solid fa-right-to-bracket header-icon"></i>
+                <button class="header-button"><h3 class="button-text button-text__blue">Đăng nhập</h3></button>
+            </div>
+
+            <div class="header-button__login">
+                <i class="fa-brands fa-google header-icon"></i>
+                <button class="header-button"><h3 class="button-text button-text__red">Đăng nhập bằng Google</h3></button>
+                
+            </div>
+
+            <div class="header-button__login">
+                <i class="fa-brands fa-facebook header-icon"></i>
+                <button class="header-button"><h3 class="button-text button-text__lightBlue">Đăng nhập bằng Facebook</h3></button>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</div>
+<!-- end Login -->
+</body>
+</html>

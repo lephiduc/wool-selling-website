@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Acount</title>
+    <link rel="stylesheet" href="./access/styleCreateAcount.css">
+    <link rel="stylesheet" href="./access/reset.css">
+    <link rel="stylesheet" href="./access/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+<header class="header">
+    <div class="wrapper-header">
+      <div class="header-nav">
+        <ul class="header-list">
+          <li class="header-items">
+            <a href="#" class="header-nav__link"><h4>Tra cứu đơn hàng</h4></a>
+          </li>
+  
+          <li class="header-items">
+            <i class="fa-solid fa-magnifying-glass header-icon"></i>
+            <input type="search" class="header-input" placeholder="Tìm sản phẩm">
+          </li>
+  
+          <li class="header-items">
+            <i class="fa-solid fa-cart-shopping header-icon" ></i>
+            <a href="#" class="header-nav__link"><h4>Giỏ hàng</h4></a>
+          </li>
+  
+          <li class="header-items">
+            <i class="fa-solid fa-right-to-bracket header-icon"></i>
+            <a href="./index.html" class="header-nav__link"><h4>Trang chủ</h4></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+<!-- end Header -->
+
+<!-- createAcount -->
+<div class="login">
+    <div class="wrapper">
+        <div class="wrapper-login">
+            <div class="header-loginTop">
+                <h2 class="header-loginTop__desc">Đăng Ký</h3>
+            <p class="header-text_desc">Nhập thông tin dưới đây để tạo tài khoản</p>
+        </div>
+        <from class="header-loginBody" onsubmit="signup()">
+            <input type="text" class="header-account" id="userName" placeholder="Tên đăng nhập">
+            <input type="email" class="header-account" id="Email" placeholder="Email">
+            <input type="password" class="header-account" id="PassWord" placeholder="Mật khẩu">
+            <input type="password" class="header-account" id="confirmPassWord" placeholder="Xác nhận mật khẩu">
+        </from>
+        <div class="header-buttons">
+            <div class="header-button__login">
+                <i class="fa-solid fa-right-to-bracket header-icon"></i>
+                <button class="header-button"><h3 class="button-text button-text__blue">Đăng ký</h3></button>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- end createAcount -->
+<script src="./createAcount.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+:root{
+    --light-green: #337ab7;
+    --gray:#7f7f7f;
+    --light-back: #000;
+    --background: #f8f8f8;
+}
+.wrapper{
+    max-width: 1160px;
+    width: 100%;
+    margin-inline: auto;
+}
+.header-icon{
+    color: var(--gray);
+}
+

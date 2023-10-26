@@ -1,0 +1,117 @@
+.wrapper-header {
+    background: var(--background);
+  }
+  html,
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+/* Headder */
+.header-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+  }
+  .header-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+  }
+  input.header-input{
+    border: none;
+    background-color: var(--background);
+    font-size: 17px;
+    font-weight: 500px;
+    color: var(--gray);
+    border-radius: 3px;
+  }
+  .header-nav__link h4{
+      color: var(--gray);
+      font-weight: 500px;
+      font-size: 17px;
+  }
+  .header-nav__link:hover h4{
+    color: var(--light-green);
+    transition: linear 0.5s;
+    
+  }
+  
+  /* end Header */
+
+  /* Login */
+.login{
+    margin-top: 30px;
+}
+.header-loginTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: var(--background);
+}
+.header-loginTop__desc{
+    font-size: 35px;
+    font-weight: 800px;
+    color: var(--gray);
+}
+.header-text_desc{
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: var(--gray);
+}
+.header-loginBody{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input.header-account{
+    border: none;
+    border-bottom: 2px solid var(--background);
+    height: 60px;
+}
+.header-text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.header-text__desc{
+    display: flex;
+    justify-content: center;
+    color: var(--light-green);
+}
+.header-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+.header-button__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2px;
+   
+}
+.header-button__login h3{
+   padding: 5px;
+   width: 280px;
+}
+.button-text__blue{
+    background-color: #205380;
+    color: white;
+}
+.button-text__red{
+    background-color: #df4a32;
+    color: white;
+}
+.button-text__lightBlue{
+    background-color: #4267b2;
+    color: white;
+}
+
+  /* end Login */
